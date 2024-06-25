@@ -20,7 +20,7 @@ header {
 }
 header .tittle{
     flex: 2 1 ;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Ubuntu';
     font-weight: bolder;
 }
@@ -247,6 +247,14 @@ main .card-all p {
     }
     .content .content-hero img {
         width: 450px;
+    }
+
+    /* card */
+    main .header p {
+        width: 100%;
+    }
+    main .card {
+        grid-template-columns: 100%;
     }
 }
 
