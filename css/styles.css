@@ -31,11 +31,8 @@ header .tittle h1 {
 }
 /* navigation */
 header .nav {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(85px, 1fr));
-    gap: .5rem;
-    place-content: center, center;
-    flex: 1;
+    display: flex;
+    gap: 3rem;
 }
 header .nav a {
     text-decoration: none;
@@ -47,8 +44,8 @@ header .nav a {
 header .nav a::after {
     content: '';
     display: block;
-    border-bottom: 4px solid #cf10cf;
-    padding-bottom: 2px;
+    border-bottom: 2px solid #cf10cf;
+    padding-bottom: 3px;
     transition: .3s;
     transform: scale(0);
     -webkit-transform: scale(0);
@@ -61,11 +58,11 @@ header .nav a::after {
     -o-transition: .3s;
 }
 header .nav a:hover::after {
-    transform: scale(.5);
-    -webkit-transform: scale(.5);
-    -moz-transform: scale(.5);
-    -ms-transform: scale(.5);
-    -o-transform: scale(.5);
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 }
 
 /* content */
@@ -75,7 +72,7 @@ header .nav a:hover::after {
 }
 .content .content-text {
     flex: 3;
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 .content-text h1 {
     font-family: 'Nunito Sans';
@@ -125,9 +122,8 @@ header .nav a:hover::after {
 /* hero */
 .content .content-hero {
    flex: 1;
-   border: 1px solid;
    align-items: center;
-    margin-top: 5rem;
+   margin-top: 5rem;
 }
 .content .content-hero img {
     width: 600px;
@@ -143,9 +139,8 @@ header .nav a:hover::after {
     /* nav */
     header  .nav{
         flex: 1 1;
-        gap: 1px;
+        gap: 1.5rem;
     }
-    header .nav 
     header .nav a:hover::after {
         transform: scale(.8);
         -webkit-transform: scale(.8);
@@ -162,12 +157,15 @@ header .nav a:hover::after {
 }
 
 /* tablet */
-@media screen and (min-width:768px){
+@media screen and (min-width:708px){
+    html {
+        font-size: 80%;
+    }
     .content {
         flex-wrap: wrap;
     }
     .content .content-hero img {
-        width: 710px;
+        width: 650px;
     }
 }
 
@@ -177,6 +175,6 @@ header .nav a:hover::after {
         flex-wrap: wrap;
     }
     .content .content-hero img {
-        width: 450px;
+        width: 750px;
     }
 }
