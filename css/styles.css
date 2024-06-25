@@ -80,7 +80,7 @@ header .nav a:hover::after {
     font-size: 3rem;
     color: var(--primary-color);
     font-weight: bolder;
-    width: 80%;
+    width: 100%;
     line-height: 3.1rem;
 }
 .content-text p {
