@@ -245,6 +245,9 @@ main .card-all p {
     .content {
         flex-wrap: wrap;
     }
+    .content-hero {
+        margin-left: -50px;
+    }
     .content .content-hero img {
         width: 450px;
     }
