@@ -276,6 +276,12 @@ main .card-all p {
     font-weight: 100;
 }
 
+/* section-2 */
+#section-2 {
+    gap: 3.5rem;
+}
+
+
 /* responsive */
 /* handphone */
 @media screen and (max-width:768px){
