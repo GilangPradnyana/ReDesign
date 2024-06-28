@@ -327,6 +327,11 @@ main .card-all p {
     .section-1 img {
         width: 100%;
     }
+
+    /* section-2 */
+    #section-2 .text{
+        margin-top: -3rem;
+    }
 }
 
 /* tablet */
@@ -338,7 +343,7 @@ main .card-all p {
         flex-wrap: wrap;
     }
     .content .content-hero img {
-        min-width: 50%;
+        width: 500px;
     }
 }
 
