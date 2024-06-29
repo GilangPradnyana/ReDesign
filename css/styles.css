@@ -284,4 +284,16 @@ main .card-all p {
 
 /* responsive */
 /* handphone */
+@media screen and (max-width:630px) {
+    
+}
 
+@media screen and (min-width:631px) {
+    
+}
+
+@media screen and (min-width:992px) {
+    html {
+        font-size: 100%;
+    }
+}
