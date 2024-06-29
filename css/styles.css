@@ -222,12 +222,12 @@ main .card-all p {
 }
 
 /* section-1 */
-.section-1 {
+.section {
     margin: 1rem 5%;
     display: flex;
     margin-top: 10rem;
 }
-.section-1 img {
+.section img {
     width: 50%;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -236,25 +236,25 @@ main .card-all p {
     -o-border-radius: 10px;
 }
 /* section content */
-.section-1 .text {
+.section .text {
     padding: 1rem;
 }
-.section-1 .text h2 {
+.section .text h2 {
     color: #3700ff;
     font-size: 1.5rem;
     font-family: 'Ubuntu';
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
-.section-1 .text h1 {
+.section .text h1 {
     color: var(--primary-color);
     font-size: 2.5rem;
     font-family: 'Nunito Sans';
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 80%;
 }
-.section-1 .text p {
+.section .text p {
     color: #c509c5;
     width: 80%;
     font-size: 1.2rem;
@@ -264,13 +264,13 @@ main .card-all p {
     margin-bottom: 10px;
 }
 
-.section-1 .text .text-check {
+.section .text .text-check {
     display: flex;
     gap: 5px;
     color: #246442;
     margin-bottom: -6px;
 }
-.section-1 .text .text-check p {
+.section .text .text-check p {
     color: var(--primary-color);
     font-family: 'Roboto Slab';
     font-weight: 100;
