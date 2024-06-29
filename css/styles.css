@@ -295,7 +295,7 @@ main .card-all p {
         margin-top: 5px;
     }
     header .nav a {
-        font-size: 1rem;
+        font-size: .7rem;
     }
     header .nav a:hover::after {
         transform: scale(.8);
@@ -314,7 +314,10 @@ main .card-all p {
         flex-wrap: wrap;
     }
     .content .content-hero img {
-        width: 450px;
+        width: 380px;
+    }
+    .content .content-hero {
+        margin-left: -2rem;
     }
     /* card */
     main .header p {
