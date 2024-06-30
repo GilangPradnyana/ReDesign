@@ -496,6 +496,9 @@ article .container .content-sc p {
     .section img {
         width: 100%;
     }
+    .section h1 {
+        min-width: 25rem;
+    }
 
     /* roadmap */
     article .container {
@@ -510,7 +513,7 @@ article .container .content-sc p {
     'section-7 section-7'                           ;
 
     grid-template-columns: repeat(1, 300px);
-    grid-template-rows: 1fr 85rem;
+    grid-template-rows: 1fr 95rem;
     }
     /* roadmap header */
     article .header h1{
