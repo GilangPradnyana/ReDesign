@@ -418,11 +418,27 @@ article .container .content-sc p {
     width: 80%;
     line-height: 1.5rem;
     font-weight: 310;
+    margin-bottom: 10px;
 }
 
-/* side-content-2 */
+/* side-content */
 #content-2 {
     grid-area: section-2;
+}
+#content-3 {
+    grid-area: section-3
+}
+#content-4 {
+    grid-area: section-4;
+}
+#content-5 {
+    grid-area: section-5;
+}
+#content-6 {
+    grid-area: section-6;
+}
+#content-7 {
+    grid-area: section-7;
 }
 
 /* responsive */
@@ -478,12 +494,30 @@ article .container .content-sc p {
         width: 100%;
     }
 
-    /* section-2 */
-    #section-2 .text{
-        margin-top: -3rem;
+    /* roadmap */
+    article .container {
+        grid-template-areas:    
+     'hero hero'  
+     'section-1 section-1'    
+     'section-2 section-2'   
+    'section-3 section-3'   
+    'section-4 section-4'
+    'section-5 section-5'
+    'section-6 section-6'
+    'section-7 section-7'                           ;
+
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: 1fr 85rem;
+    }
+    /* roadmap header */
+    article .header h1{
+        width: 80%;
+    }
+    article .header p {
+        width: 85%;
+        margin-top: 5px;
     }
 }
-
 @media screen and (min-width:631px) {
     html {
         font-size: 75%;
