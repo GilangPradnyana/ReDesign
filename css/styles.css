@@ -311,7 +311,7 @@ article .container {
 }
 /* header */
 article .header {
-    margin: 8rem 5% 2rem;
+    margin: 8rem 5% 1rem;
 }
 article .header h2 {
     color: #3700ff;
@@ -511,10 +511,10 @@ article .container .content-sc p {
     }
     /* roadmap header */
     article .header h1{
-        width: 80%;
+        width: 100%;
     }
     article .header p {
-        width: 85%;
+        width: 100%;
         margin-top: 5px;
     }
 }
