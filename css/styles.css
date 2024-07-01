@@ -640,6 +640,40 @@ article .container .content-sc p {
     .section img {
         width: 100%;
     }
+
+    /* roadmap */
+    article .container {
+        grid-template-areas:    
+     'hero hero'  
+     'section-1 section-1'    
+     'section-2 section-2'   
+    'section-3 section-3'   
+    'section-4 section-4'
+    'section-5 section-5'
+    'section-6 section-6'
+    'section-7 section-7'                           ;
+
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: 1fr 95rem;
+    }
+    /* roadmap header */
+    article .header h1{
+        width: 100%;
+    }
+    article .header p {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    /* teacher profile */
+    .profile {
+        flex-wrap: wrap;
+    }
+    .profile .hero {
+        background-size: cover;
+        background-position: 0  -100px;
+        background-repeat: no-repeat;
+    }
 }
 
 @media screen and (min-width:992px) {
