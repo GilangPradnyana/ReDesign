@@ -456,6 +456,11 @@ article .container .content-sc p {
     height: 40rem;
     background-position: 0px -70px;
     background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 /* content */
 .profile .content {
@@ -584,6 +589,12 @@ article .container .content-sc p {
     article .header p {
         width: 100%;
         margin-top: 5px;
+    }
+
+    /* teacher profile */
+    .profile {
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
 @media screen and (min-width:631px) {
