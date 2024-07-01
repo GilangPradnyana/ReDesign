@@ -444,6 +444,68 @@ article .container .content-sc p {
     grid-area: section-7;
 }
 
+/* teacher profile */
+.profile {
+    margin: 10rem 5% 2rem;
+    display: flex;
+}
+/* hero */
+.profile .hero {
+    background-image: url(../img/alexander-shatov-DHl49oyrn7Y-unsplash.jpg);
+    width: 200rem;
+    height: 40rem;
+    background-position: 0px -70px;
+    background-size: cover;
+}
+/* content */
+.profile .content {
+    color: #cf10cf;
+    font-size: 1.2rem;
+}
+/* header */
+.profile .content .header h2 {
+    color: #3700ff;
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+.profile .content .header h1 {
+    color: #ffffff;
+    font-size: 2.7rem;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.profile .content .header .link {
+    display: flex;
+    gap: 50px;
+    color: #662d91;
+}
+.profile .content .header .link a {
+    color: #3700ff;
+}
+.profile .content .header .link a:active {
+    color: salmon;
+}
+
+/* text */
+.profile .text {
+    margin-top: 1rem;
+}    
+.profile .text p {
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab';
+    font-size: .9;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+.profile .text p span{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
 /* responsive */
 /* handphone */
 @media screen and (max-width:630px) {
