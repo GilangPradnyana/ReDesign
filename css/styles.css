@@ -676,7 +676,7 @@ article .container .content-sc p {
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1024px) {
    html {
     font-size: 90%;
    }
@@ -701,4 +701,27 @@ article .container .content-sc p {
    .section {
     flex-wrap: nowrap;
    }
+
+   /* roadmap */
+   article .container {
+    grid-template-columns: repeat(2,minmax(300px, 1fr));
+    grid-template-rows: repeat(5, 280px) ;
+    grid-template-areas:    
+     'hero section-2'    
+     'section-1 section-3'    
+     'section-1 section-4'   
+    'section-1 section-5'   
+    'section-1 section-6'                           ;
+    border-radius: 10px;
+    gap: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    }
+
+    /* teacher profile */
+    .profile {
+        flex-wrap: nowrap;
+    }
 }
