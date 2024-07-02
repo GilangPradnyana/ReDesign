@@ -559,7 +559,7 @@ article .container .content-sc p {
 .price-tag .price-card .card-1 .check-container .checklist {
     display: flex;
     margin: 30px 0 10px;
-    justify-content: center;
+    justify-content: flex-start ;
     align-items: center;
     gap: 10px;
     color: #246442;
@@ -821,6 +821,20 @@ article .container .content-sc p {
         background-position: 0  -100px;
         background-repeat: no-repeat;
     }
+    /* price tag */
+    .price-tag {
+        margin: 10rem 15% 2rem ;
+    }
+    .price-tag .price-card {
+        flex-wrap: nowrap;
+    }
+    .price-tag .price-card .card-1 {
+        width: 100%;
+    }
+    .price-tag .price-card .card-2 {
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -870,5 +884,18 @@ article .container .content-sc p {
     /* teacher profile */
     .profile {
         flex-wrap: nowrap;
+    }
+    /* price tag */
+    .price-tag {
+        margin: 10rem 20% 2rem ;
+    }
+    .price-tag .price-card {
+        flex-wrap: nowrap;
+    }
+    .price-tag .price-card .card-1 {
+        width: 100%;
+    }
+    .price-tag .price-card .card-2 {
+        width: 100%;
     }
 }
