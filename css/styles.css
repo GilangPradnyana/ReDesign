@@ -697,6 +697,62 @@ article .container .content-sc p {
     text-shadow: .5px .5px 1px #cf10cf;
 }
 
+/* footer */
+footer {
+    margin-top: 10rem;
+    padding: 5rem ;
+    display: flex;
+    background-color: #1d1b36;
+    align-items: center;
+}
+footer h1 {
+    font-size: 2rem;
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+    color: var(--primary-color);
+    width: 50%;
+}
+footer span {
+    color: #662d91;
+}
+
+/* link */
+footer .link {
+    display: flex;
+    gap: 25px;
+    font-family: 'Roboto Slab';
+    justify-content: stretch;
+    width: 50%;
+}
+footer .link a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #662d91;
+}
+footer .link a::after {
+    display: block;
+    content: "";
+    padding-bottom: 2px;
+    border-bottom: 1.5px solid #d0cdcd;
+    transform: scale(0);
+    transition: .3s;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+footer .link a:hover:after {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
 /* responsive */
 /* handphone */
 @media screen and (max-width:630px) {
