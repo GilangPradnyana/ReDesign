@@ -729,6 +729,20 @@ article .container .content-sc p {
         flex-wrap: wrap;
         gap: 20px;
     }
+
+    /* price tag */
+    .price-tag {
+        margin: 10rem 5% 2rem ;
+    }
+    .price-tag .price-card {
+        flex-wrap: wrap;
+    }
+    .price-tag .price-card .card-1 {
+        width: 100%;
+    }
+    .price-tag .price-card .card-2 {
+        width: 100%;
+    }
 }
 @media screen and (min-width:631px) {
     html {
