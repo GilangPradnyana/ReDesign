@@ -219,6 +219,7 @@ main .card-all p {
     margin-top: 5px;
     color: var(--primary-color);
     line-height: 1.3rem;
+    text-shadow: .5px .5px 1px #cf10cf;
 }
 
 /* section-1 */
@@ -374,6 +375,7 @@ article .header p {
     font-weight: 600;
     width:100%;
     line-height: 1.2rem;
+    text-shadow: .5px .5px 1px #cf10cf;
 }
 
 /* image */
@@ -422,6 +424,8 @@ article .container .content-sc p {
     line-height: 1.5rem;
     font-weight: 310;
     margin-bottom: 10px;
+    text-shadow: .5px .5px 1px #cf10cf;
+
 }
 
 /* side-content */
@@ -642,6 +646,55 @@ article .container .content-sc p {
     color: #797676;
     text-align: center;
     font-weight: 300;
+}
+
+/* common question */
+.question-card {
+    margin: 10rem 15% 2rem;
+}
+.question-card .header {
+    color: #ffffff;
+    font-family: 'Ubuntu';
+    margin-bottom: 10px;
+}
+.question-card .header h1 {
+    font-weight: 450;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.question-card .header p {
+    color: #c509c5;
+    width: 55%;
+    line-height: 18px;
+}
+/* card */
+.question-card .card-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    grid-template-rows: repeat(7, 200px)
+}
+.question-card .card-all {
+    background-color: #1d1b36;
+    font-family: 'Ubuntu';
+    color: #ffffff;
+    padding: 20px 20px 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.question-card .card-all h1 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.question-card .card-all p {
+    width: 80%;
+    color: #d0cdcd;
+    line-height: 1.1rem;
+    text-shadow: .5px .5px 1px #cf10cf;
 }
 
 /* responsive */
