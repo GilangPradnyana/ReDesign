@@ -863,6 +863,18 @@ footer .link a:hover:after {
         grid-template-rows: repeat(7, 150px);
         grid-template-columns: 1fr;
     }
+    /* footer */
+    footer {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    footer h1 {
+        width: 100%;
+    }
+    footer .link {
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
 @media screen and (min-width:631px) {
     html {
@@ -955,6 +967,31 @@ footer .link a:hover:after {
         width: 100%;
     }
 
+    /* question-card */
+    .question-card {
+        margin: 10rem 10% 2rem;
+    }
+    .question-card .header p {
+        width: 100%;
+    }
+    .question-card .card-container {
+        grid-template-rows: repeat(7, 150px);
+        grid-template-columns: 1fr;
+    }
+
+    /* footer */
+    footer {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    footer h1 {
+        width: 100%;
+    }
+    footer .link {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -1017,5 +1054,16 @@ footer .link a:hover:after {
     }
     .price-tag .price-card .card-2 {
         width: 100%;
+    }
+
+    /* footer */
+    footer {
+        flex-wrap: nowrap;
+    }
+    footer .link {
+        flex-wrap: nowrap;
+    }
+    footer h1 {
+        width: 70%;
     }
 }
